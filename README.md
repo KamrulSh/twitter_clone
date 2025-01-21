@@ -6,9 +6,11 @@
 * Database change
 `rails db:system:change --to=postgresql`
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+* Install devise for authentication
+`bundle add devise`
+`rails generate devise:install`
+`rails generate devise:views`
+`rails generate devise user`
 
 * Deployment instructions
 
