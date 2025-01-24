@@ -12,6 +12,9 @@
 `rails generate devise:views`
 `rails generate devise user`
 
+* Add rich text area
+`rails action_text:install`
+
 * Deployment instructions
 
 * ...
