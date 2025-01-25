@@ -18,6 +18,11 @@
 * Add comment model
 `rails g resource comment post:references user:references content:text`
 
+* Add user_name to users
+`rails g migration AddUserNameToUsers user_name:string`
+
+* Add devise controllers
+`rails g devise:controllers users`
 * Deployment instructions
 
 * ...
