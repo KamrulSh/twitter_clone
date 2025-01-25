@@ -15,6 +15,9 @@
 * Add rich text area
 `rails action_text:install`
 
+* Add comment model
+`rails g resource comment post:references user:references content:text`
+
 * Deployment instructions
 
 * ...
