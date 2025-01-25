@@ -1,5 +1,10 @@
 <%= turbo_stream_from @post %>
 <%= render @post %>
+
+<turbo-frame id="like_section-<%= @post.id %>">
+  <%= render partial: "like_section", post: @post %>
+</turbo-frame>
+
 <%= render "comments/comments", post: @post %>
 <br>
 <div>

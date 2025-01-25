@@ -23,6 +23,10 @@
 
 * Add devise controllers
 `rails g devise:controllers users`
+
+* Add like in posts
+`rails g resource like post:references user:references`
+
 * Deployment instructions
 
 * ...
