@@ -1,5 +1,7 @@
+<h1>Welcome <%= current_user&.user_name %></h1>
 <% content_for :title, "Posts" %>
 
+<%= link_to "New post", new_post_path %>
 <h1>Posts</h1>
 
 <div id="posts">
@@ -10,6 +12,3 @@
     </p>
   <% end %>
 </div>
-
-<%= link_to "New post", new_post_path %>
-<%= link_to "Back to home", root_path %>

@@ -3,5 +3,6 @@
 <div id="comments">
   <%= render post.comments %>
 </div>
-
-<%= render "comments/new", post: @post %>
+<% if current_user %>
+  <%= render "comments/new", post: @post %>
+<% end %>
